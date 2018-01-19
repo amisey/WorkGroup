@@ -101,6 +101,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Areas\Amir\Content\Css\Bootstrap\bootstrap-grid.css" />
+    <Content Include="Areas\Amir\Content\Css\Bootstrap\bootstrap-grid.min.css" />
+    <Content Include="Areas\Amir\Content\Css\Bootstrap\bootstrap-reboot.css" />
+    <Content Include="Areas\Amir\Content\Css\Bootstrap\bootstrap-reboot.min.css" />
+    <Content Include="Areas\Amir\Content\Css\Bootstrap\bootstrap.css" />
+    <Content Include="Areas\Amir\Content\Css\Bootstrap\bootstrap.min.css" />
+    <Content Include="Areas\Amir\Content\Css\Base.css" />
+    <Content Include="Areas\Amir\Content\Scripts\Libraries\Bootstrap\bootstrap.js" />
+    <Content Include="Areas\Amir\Content\Scripts\Libraries\Bootstrap\bootstrap.min.js" />
+    <Content Include="Areas\Amir\Content\Scripts\Component\Menu.js" />
+    <Content Include="Areas\Amir\Content\Scripts\Libraries\jquery\jquery.js" />
+    <Content Include="Areas\Amir\Content\Scripts\Libraries\jquery\jquery.min.js" />
     <Content Include="Areas\Mohamad\Content\Scripts\Component\Index.js" />
     <Content Include="Areas\Zahra\Content\Scripts\Component\Index.js" />
     <Content Include="Areas\Majid\Content\Scripts\Component\Index.js" />
@@ -124,6 +136,7 @@
     <Compile Include="Areas\Amir\AmirAreaRegistration.cs" />
     <Compile Include="Areas\Amir\Controllers\HomeController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\MainApiController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -150,6 +163,12 @@
     <Content Include="Areas\Mohamad\Views\Home\Index.cshtml" />
     <Content Include="Areas\Mohamad\Views\Shared\_Layout.cshtml" />
     <Content Include="Areas\Mohamad\Views\web.config" />
+    <Content Include="Areas\Amir\Content\Css\Bootstrap\bootstrap-grid.css.map" />
+    <Content Include="Areas\Amir\Content\Css\Bootstrap\bootstrap-grid.min.css.map" />
+    <Content Include="Areas\Amir\Content\Css\Bootstrap\bootstrap-reboot.css.map" />
+    <Content Include="Areas\Amir\Content\Css\Bootstrap\bootstrap-reboot.min.css.map" />
+    <Content Include="Areas\Amir\Content\Css\Bootstrap\bootstrap.css.map" />
+    <Content Include="Areas\Amir\Content\Css\Bootstrap\bootstrap.min.css.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

@@ -1,0 +1,16 @@
+﻿.header-nav {
+    background-color: black;
+}
+
+.navbar-expand .navbar-nav .nav-link {
+    padding-right: .5rem;
+    padding-left: .5rem;
+}
+
+.nav-link {
+    color: #fff !important;
+}
+
+.dropdown-menu .nav-link {
+    color: #000 !important;
+}

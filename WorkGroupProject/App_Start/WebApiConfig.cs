@@ -17,7 +17,7 @@ namespace WorkGroupProject
             config.Routes.MapHttpRoute(
                 name: "DefaultApi",
                 routeTemplate: "api/{action}/{id}",
-                defaults: new { controller = "Home", id = RouteParameter.Optional }
+                defaults: new { controller = "MainApi", id = RouteParameter.Optional }
             );
 
             var appXmlType = config.Formatters.XmlFormatter.SupportedMediaTypes.FirstOrDefault(t => t.MediaType == "application/xml");
